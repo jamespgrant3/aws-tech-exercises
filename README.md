@@ -34,6 +34,9 @@
 ## EC2 ##
   * using the CLI, replicate an EBS volume across regions
 
+## ELB ##
+  * create an EC2 instance, fronted by an ELB, fronted by a CF distro. Update the ELB to only accept traffic from the CF distro.
+
 ## Helpers ##
 To help with setting up a quick web server, here is a user data script from LA:
 
